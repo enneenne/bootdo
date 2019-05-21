@@ -34,7 +34,7 @@ import com.bootdo.common.utils.R;
 public class WebsiteController {
 	@Autowired
 	private WebsiteService websiteService;
-	
+	//lxy
 	@GetMapping()
 	@RequiresPermissions("system:website:website")
 	String Website(){
